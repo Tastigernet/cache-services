@@ -11,7 +11,7 @@ function getCoinGeckoData(options, callback) {
   };
 
   var packetData = {
-    uri: `https://api.coingecko.com/api/v3/coins/conceal/market_chart?${queryString.stringify(queryParams)}`,
+    uri: `https://api.coingecko.com/api/v3/coins/cache/market_chart?${queryString.stringify(queryParams)}`,
     method: "GET",
     json: true
   };

@@ -1,64 +1,10 @@
 
 {
-   "ccx":[
+   "cxche":[
       [
-         "pool.conceal.network",
-         ["https://pool.conceal.network/api/stats"],
-         "Official Pool",
-         "1"
-      ],
-      [
-         "ccx-us.bluerockpools.net",
-         ["https://ccx-us.bluerockpools.net:8119/stats"],
-         "BlueRockPools",
-         "1"
-      ],
-      [
-         "conceal.herominers.com",
-         ["https://conceal.herominers.com/api/stats"],
-         "Herominers",
-         "1"
-      ],
-      [
-         "conceal.hashvault.pro",
-         ["https://api.hashvault.pro/v3/conceal"],
-         "Hash Vault",
-         "3"
-      ],
-      [
-         "conceal.miner.rocks",
-         ["https://conceal.miner.rocks/api/stats"],
-         "Miner Rocks",
-         "1"
-      ],
-      [
-         "fastpool.xyz/ccx",
-         ["https://fastpool.xyz/api-ccx/stats"],
-         "Fastpool",
-         "1"
-      ],
-      [
-         "miningpool.online/conceal",
-         ["https://miningpool.online/conceal/api/stats"],
-         "Miningpool",
-         "1"
-      ],
-      [
-         "pool.conceal.community",
-         ["https://pool.conceal.community/api/pool/stats", "https://pool.conceal.community/api/network/stats", "https://pool.conceal.community/api/config"],
-         "Community Pool",
-         "2"
-      ],
-      [
-         "ccx.pool.gntl.co.uk",
-         ["https://ccx.pool.gntl.co.uk/api/pool/stats", "https://ccx.pool.gntl.co.uk/api/network/stats", "https://ccx.pool.gntl.co.uk/api/config"],
-         "Gntl Pool",
-         "2"
-      ],
-      [
-         "ccx.pool-moscow.ru",
-         ["http://ccx.pool-moscow.ru:25015/live_stats"],
-         "Pool Moscow",
+         "cxche.letshash.online",
+         ["https://letshash.online:stats:15002/stats"],
+         "Lets Hash It Online",
          "1"
       ]
    ]

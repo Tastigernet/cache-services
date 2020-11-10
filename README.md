@@ -1,13 +1,13 @@
-# Conceal Services 
-Conceal services offered through a simple API. 
+# Cache Services 
+Cache services offered through a simple API. 
 
 # Chart API-s
 
 Currently there are 3 chart API calls supported that return PNG images as result. The calls have the following endpoints:
 
-* /charts/price.png -> Price history for the Conceal coin
-* /charts/volume.png -> Volume history for the Conceal coin
-* /charts/marketcap.png -> Marketcap history for the Conceal coin
+* /charts/price.png -> Price history for the Cache coin
+* /charts/volume.png -> Volume history for the Cache coin
+* /charts/marketcap.png -> Marketcap history for the Cache coin
 
 The type chart you get back depends on the parameters you pass in the URL.
 
@@ -64,8 +64,8 @@ charts/price.png?dateFormat=YYYY-MM-DD
 
 These are APIs that will give you pools info
 
-* /pools/list -> This gives you a shuffled list of all CCX pools 
-* /pools/data -> This gives you a shuffled list of all CCX pools data
+* /pools/list -> This gives you a shuffled list of all CXCHE pools 
+* /pools/data -> This gives you a shuffled list of all CXCHE pools data
 
 # Exchange API-s
 
@@ -85,7 +85,7 @@ exchanges/list?name=Hotbit
 **address**: Filter by the exchange address if its a permanent one. Partial searches supported (by default). Example:
 
 ```
-exchanges/list?address=ccx7dnmkqFgHHnuQsaWjg57Hk69jmk6k4XKdG34jmX39ho5Gz45SJJ9U96zYzAcqP421xp8qU3NVpMsFhCotmuGR75i9PAQXEj
+exchanges/list?address=cxche7dnmkqFgHHnuQsaWjg57Hk69jmk6k4XKdG34jmX39ho5Gz45SJJ9U96zYzAcqP421xp8qU3NVpMsFhCotmuGR75i9PAQXEj
 ```
 
 Both parameters also support wildcard searches and partial searches. For example

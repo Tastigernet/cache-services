@@ -11,7 +11,7 @@ class nodes {
     this.geoJSONArray = [];
 
     this.addressList = [
-      "https://explorer.conceal.network/daemon/getpeers"
+      "https://daemon.explorer.cxche.org/getpeers"
     ];
 
     this.nodeCache = new NodeCache({ stdTTL: config.nodes.cache.expire, checkperiod: config.nodes.cache.checkPeriod }); // the cache object
@@ -27,9 +27,9 @@ class nodes {
     var counter = 0;
 
     request.get({
-      url: "https://explorer.conceal.network/pool/list?isReachable=true",
+      url: "https://explorer.cxche.org/services/pools/cache-pools.json?isReachable=true",
       json: true,
-      headers: { 'User-Agent': 'Conceal Services' }
+      headers: { 'User-Agent': 'Cache Services' }
     }, (err, res, data) => {
       if (err) {
         console.log('Error:', err.message);
@@ -50,7 +50,7 @@ class nodes {
             request.get({
               url: value,
               json: true,
-              headers: { 'User-Agent': 'Conceal Services' }
+              headers: { 'User-Agent': 'Cache Services' }
             }, (err, res, data) => {
               if (err) {
                 console.log('Error:', err.message);

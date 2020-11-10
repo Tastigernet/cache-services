@@ -60,7 +60,7 @@ typings/
 # next.js build output
 .next
 /.vscode
-/config.json
+# /config.json
 /bin
 /config.js
 .scannerwork

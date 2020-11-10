@@ -1,4 +1,4 @@
-// Copyright (c) 2020, Taegus Cromis, The Conceal Developers
+// Copyright (c) 2020, Taegus Cromis, The Conceal Developers , Cache
 //
 // Please see the included LICENSE file for more information.
 
@@ -23,7 +23,7 @@ module.exports = {
       if (err) {
         throw err;
       } else {
-        resultCallback(shuffle(JSON.parse(data).ccx));
+        resultCallback(shuffle(JSON.parse(data).cxche));
       }
     });
   },
@@ -35,7 +35,7 @@ module.exports = {
         var poolData = [];
         var counter = 0;
 
-        shuffle(JSON.parse(data).ccx).forEach(function (element, index, array) {
+        shuffle(JSON.parse(data).cxche).forEach(function (element, index, array) {
           var host = element[0];
           var urls = element[1];
           var name = element[2];
@@ -53,7 +53,7 @@ module.exports = {
             json: true,
             timeout: 2000,
             rejectUnauthorized: false,
-            headers: { 'User-Agent': 'Conceal Services' }
+            headers: { 'User-Agent': 'Cache Services' }
           }, (err, res, data) => {
             if (err) {
               console.log(urls[0] + ' -> Status:', err.message);
@@ -121,7 +121,7 @@ module.exports = {
                     url: urls[1],
                     json: true,
                     timeout: 2000,
-                    headers: { 'User-Agent': 'Conceal Services' }
+                    headers: { 'User-Agent': 'Cache Services' }
                   }, (err, res, network) => {
                     if (err) {
                       console.log(urls[1] + ' -> Status:', err.message);
@@ -136,7 +136,7 @@ module.exports = {
                         url: urls[2],
                         json: true,
                         timeout: 2000,
-                        headers: { 'User-Agent': 'Conceal Services' }
+                        headers: { 'User-Agent': 'Cache Services' }
                       }, (err, res, config) => {
                         if (err) {
                           console.log(urls[2] + ' -> Status:', err.message);

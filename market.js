@@ -4,7 +4,7 @@ const request = require("request");
 module.exports = {
   getMarketInfo: function (req, resultCallback) {
     var queryParams = {
-      ids: 'Conceal',
+      ids: 'Cache',
       vs_currencies: req.query.vsCurrencies || 'USD',
       include_market_cap: true,
       include_24hr_vol: true,
@@ -30,7 +30,7 @@ module.exports = {
     };
 
     var packetData = {
-      uri: `https://api.coingecko.com/api/v3/coins/conceal/market_chart?${queryString.stringify(queryParams)}`,
+      uri: `https://api.coingecko.com/api/v3/coins/cache/market_chart?${queryString.stringify(queryParams)}`,
       strictSSL: false,
       method: "GET",
       json: true
