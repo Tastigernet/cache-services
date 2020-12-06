@@ -27,7 +27,7 @@ class nodes {
     var counter = 0;
 
     request.get({
-      url: "https://explorer.cxche.org/pool/list?isReachable=true",
+      url: "https://services.explorer.cxche.org/pools/list?isReachable=true",
       json: true,
       headers: { 'User-Agent': 'Cache Services' }
     }, (err, res, data) => {

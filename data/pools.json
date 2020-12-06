@@ -6,6 +6,31 @@
          ["https://letshash.online:stats:15002/stats"],
          "Lets Hash It Online",
          "1"
+      ],
+      [
+         "cache.herominers.com",
+         ["https://cache.herominers.com/api/stats"],
+         "Herominers",
+         "1"
+      ],
+      [
+         "pool.walemo.com/cache",
+         ["https://cache.bhdscan.com:38358/stats"],
+         "Walemo",
+         "1"
+      ],
+      [
+         "minergalaxy.com/CACHE",
+         ["http://62.171.178.144.187/stats"],
+         "Minergalaxy",
+         "1"
+      ],
+      [
+         "spookyplanet.nl/pool/cache",
+         ["https://spookyplanet.nl:1192/live_stats", "https://spookyplanet.nl:1192/stats"],
+         "Spookyplanet",
+         "1"
       ]
    ]
 }
+

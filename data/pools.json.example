@@ -1,0 +1,66 @@
+
+{
+   "ccx":[
+      [
+         "pool.cxche.org",
+         ["https://pool.cxche.org/api/stats"],
+         "Official Pool",
+         "1"
+      ],
+      [
+         "cxche-us.bluerockpools.net",
+         ["https://cxche-us.bluerockpools.net:8119/stats"],
+         "BlueRockPools",
+         "1"
+      ],
+      [
+         "cache.herominers.com",
+         ["https://cache.herominers.com/api/stats"],
+         "Herominers",
+         "1"
+      ],
+      [
+         "cache.hashvault.pro",
+         ["https://api.hashvault.pro/v3/cache"],
+         "Hash Vault",
+         "3"
+      ],
+      [
+         "conceal.miner.rocks",
+         ["https://conceal.miner.rocks/api/stats"],
+         "Miner Rocks",
+         "1"
+      ],
+      [
+         "fastpool.xyz/cxche",
+         ["https://fastpool.xyz/api-cxche/stats"],
+         "Fastpool",
+         "1"
+      ],
+      [
+         "miningpool.online/cache",
+         ["https://miningpool.online/cache/api/stats"],
+         "Miningpool",
+         "1"
+      ],
+      [
+         "pool.cache.community",
+         ["https://pool.cache.community/api/pool/stats", "https://pool.cache.community/api/network/stats", "https://pool.cache.community/api/config"],
+         "Community Pool",
+         "2"
+      ],
+      [
+         "ccx.pool.gntl.co.uk",
+         ["https://cxche.pool.gntl.co.uk/api/pool/stats", "https://cxche.pool.gntl.co.uk/api/network/stats", "https://cxche.pool.gntl.co.uk/api/config"],
+         "Gntl Pool",
+         "2"
+      ],
+      [
+         "cxche.pool-moscow.ru",
+         ["http://cxche.pool-moscow.ru:25015/live_stats"],
+         "Pool Moscow",
+         "1"
+      ]
+   ]
+}
+
