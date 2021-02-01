@@ -1,4 +1,4 @@
-// Copyright (c) 2020, Taegus Cromis, The Conceal Developers , Cache Developers
+// Copyright (c) 2020-2021, Taegus Cromis, The Conceal Developers , Cache Developers
 //
 // Please see the included LICENSE file for more information.
 

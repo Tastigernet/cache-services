@@ -1,12 +1,26 @@
 
 {
    "cxche":[
+
+      [
+         "letshash.it/cache",
+         ["https://letshash.online:14002/stats"],
+         "Lets Hash It",
+         "1"
+      ],
+      [
+         "cache.herominers.com",
+         ["https://cache.herominers.com/api/stats"],
+         "Herominers",
+         "1"
+      ],
       [
          "pool.walemo.com/cache",
          ["https://cache.bhdscan.com:38358/stats"],
          "Walemo",
          "1"
       ]
-	]
+
+   ]
 }
 

@@ -11,7 +11,7 @@ class nodes {
     this.geoJSONArray = [];
 
     this.addressList = [
-      "https://daemon.explorer.cxche.org/getpeers"
+      "https://explorer.cxche.org/daemon/getpeers"
     ];
 
     this.nodeCache = new NodeCache({ stdTTL: config.nodes.cache.expire, checkperiod: config.nodes.cache.checkPeriod }); // the cache object
@@ -27,7 +27,7 @@ class nodes {
     var counter = 0;
 
     request.get({
-      url: "https://services.explorer.cxche.org/pools/list?isReachable=true",
+      url: "https://explorer.cxche.org/services/pools/list?isReachable=true",
       json: true,
       headers: { 'User-Agent': 'Cache Services' }
     }, (err, res, data) => {
