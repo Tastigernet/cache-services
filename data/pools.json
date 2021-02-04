@@ -15,6 +15,24 @@
          "1"
       ],
       [
+         "fastpool.xyz/cxche",
+         ["https://fastpool.xyz/api-cxche/stats"],
+         "Fastpool",
+         "1"
+      ],
+      [
+         "minergalaxy.com/CACHE",
+         ["http://62.171.178.144:8117/stats"],
+         "Minergalaxy",
+         "1"
+      ],
+      [
+         "newpool.pw/cxche",
+         ["https://minenice.newpool.pw:8223/stats"],
+         "Newpool",
+         "1"
+      ],
+      [
          "pool.walemo.com/cache",
          ["https://cache.bhdscan.com:38358/stats"],
          "Walemo",
