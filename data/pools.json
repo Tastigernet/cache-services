@@ -16,7 +16,7 @@
       ],
       [
          "fastpool.xyz/cxche",
-         ["https://fastpool.xyz/api-cxche/stats"],
+         ["https://fastpool.xyz/api-cache/stats"],
          "Fastpool",
          "1"
       ],
